@@ -1,0 +1,274 @@
+body {
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0%;
+    overflow-x: hidden;
+  }
+  h1,
+  h2,
+  h3,
+  label {
+    color: #1e2022;
+    font-family: "Inter", sans-serif;
+  }
+  p,input {
+    color: #677788;
+    font-family: "Inter", sans-serif;
+  }
+  /* NavBar's */
+  #first-nav {
+    text-align: right;
+    margin: 16px 90px;
+  }
+  #first-nav li {
+    display: inline;
+    margin-right: 25px;
+  
+    color: #677788;
+  }
+  #nav {
+    margin-left: 115px;
+  }
+  #logo {
+    display: inline-block;
+  }
+  nav li {
+    color: #677788;
+    display: inline;
+    margin-right: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    padding-left: 1px;
+  }
+ #navbtn {
+    line-height: 43px;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(55, 125, 255) !important;
+  }
+  #navbtn:hover{
+    color: #f9fbff !important;
+    background-color: rgb(33, 97, 217) !important;
+    transition: 0.5s !important;
+  }
+  #anav{
+    position: fixed;
+    background-color: white;
+   top: 0;
+   width: 100%;
+   display: block;
+   transition: 0.3s;
+   box-shadow: 0px 0px 10px rgb(228, 235, 250);
+  }
+  #anav a {
+    text-decoration: none;
+    color: #677788;
+  }
+  #anav li :hover {
+    color: blue;
+    transition: 0.5s;
+  }
+  nav ul {
+    padding-left: 50px;
+  }
+  /* Navbar END */
+  
+  /* First Layout */
+  #layout{
+    margin-top: 200px;
+  }
+  #layout-content {
+    text-align: center;
+    margin: 40px 15px 0px 0px;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 1.5rem !important;
+  }
+  #layout-content p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+  }
+  /* first layout Ends */
+  /* Image Div */
+  #img-sec {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  #img-sec img {
+    max-width: 99%;
+    height: auto;
+    vertical-align: middle;
+  }
+  /* Image Div closed */
+  #after-img h2 {
+    margin: 160px 0px 105px 0px;
+    margin-top: 160px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 130px;
+  }
+  /* Common Sections Start */
+  .commonsect {
+    margin: 0px 115px 150px 115px;
+  }
+  .commonsect .content p:first-child {
+    display: inline-block;
+    padding: 2px 7px 2px 7px;
+    border: solid 1px #1e2022;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #1e2022;
+    margin-bottom: 25px;
+  }
+  .commonsect .content h3,
+  .doc-snip h3,
+  .tools h3 {
+    size: 28px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .lastchild,
+  .doc-snip p,
+  .tools p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 40px;
+  }
+  .commonsect .content a,
+  .doc-snip a,
+  .logos a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: rgb(55, 125, 255);
+    padding: 12px 14px 12px 14px;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+  }
+  .commonsect img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+    margin-left: 2.5rem;
+    box-shadow: 10px 10px 10px 10px rgb(228, 235, 250);
+  }
+  /* Documentation and Snippets */
+  .doc-snip {
+    margin-left: 110px;
+    text-align: center;
+    width: 1120px;
+    margin-bottom: 160px;
+  }
+  .doc-img img {
+    margin-top: 60px;
+    width: 980px;
+    height: 610px;
+  }
+  #snip-img {
+    box-shadow: 10px 10px 10px 10px rgb(228, 235, 250);
+  }
+  .doc-snip a {
+    margin-bottom: 17px;
+  }
+  /* Tools Section */
+  .tools {
+    text-align: center;
+  }
+  /* FORM SECTION */
+  .form-container{
+    margin: 100px 0px 170px 50px;
+    margin-left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Assets/circle-molding.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+}
+form{
+    border-radius: 10px;
+    padding: 40px;
+    margin: 60px 40px;
+    background-color: #ffffff;
+    width: 400px; 
+    height: auto;
+}
+.form-control{
+    margin-bottom: 20px;
+}
+  /* logo Images */
+  .logos {
+    max-width: 524px;
+    margin-left: 315px;
+  }
+  .logos img {
+    width: 110px;
+    height: 100px;
+    margin-left: 80px;
+    margin-bottom: 60px;
+  }
+  .logos a {
+    margin-left: 230px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  /*  Ratting Section */
+  .ratting {
+    width: 1000px;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 175px;
+    margin-bottom: 30px;
+  }
+  .ratting i {
+    color: rgb(245, 202, 153);
+    margin-bottom: 50px;
+  }
+  
+  
+  .commonsect .content a:hover,
+  .doc-snip a:hover,
+  .logos a:hover {
+    margin-bottom: 5px;
+    background-color: rgb(33, 97, 217);
+    transition: 0.5s;
+  }
+  /* Footer Section */
+  footer{
+    background-color: rgb(33,50,91);
+  
+  }
+  #footer-img{
+    width: 125px;
+    height: 40px;
+  }
+  footer a{
+    text-decoration: none;
+    color: #f9fbff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+   
+  }
+  footer .row{
+    padding-top: 72px;
+  }
+  footer a,footer h6, footer p,footer i{
+    color: #f9fbff;
+  }
